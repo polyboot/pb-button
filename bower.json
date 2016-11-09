@@ -1,0 +1,32 @@
+{
+  "name": "pb-button",
+  "description": "A Polyboot button web components using Polymer.",
+  "main": "./src/pb-button.html",
+  "authors": [
+    "Ashwin Hegde"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0"
+  },
+  "devDependencies": {
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^0.7.0"
+  },
+  "license": "MIT",
+  "keywords": [
+    "web-components",
+    "web",
+    "components",
+    "polymer",
+    "polyboot",
+    "pb-button"
+  ],
+  "homepage": "https://github.com/polyboot/pb-button",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

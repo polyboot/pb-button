@@ -1,0 +1,36 @@
+{
+  "name": "pb-button",
+  "version": "0.0.1",
+  "description": "A Polyboot button web components using Polymer.",
+  "main": "./src/pb-button.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start:dev": "polyserve",
+    "start:bundled": "polymer serve build/bundled",
+    "start:unbundled": "polymer serve build/unbundled",
+    "lint": "polylint -i ./src/pb-button.html",
+    "build": "npm run dist:clean && polymer build",
+    "test:all": "wct",
+    "test:chrome": "wct -l chrome",
+    "test:alive": "wct -p",
+    "dist:clean": "rimraf dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polyboot/pb-button.git"
+  },
+  "author": "Ashwin Hegde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/polyboot/pb-button/issues"
+  },
+  "homepage": "https://github.com/polyboot/pb-button#readme",
+  "devDependencies": {
+    "polylint": "^2.10.1",
+    "polymer-cli": "^0.17.0",
+    "polyserve": "^0.13.0",
+    "web-component-tester": "^5.0.0"
+  }
+}
